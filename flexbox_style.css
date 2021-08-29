@@ -14,9 +14,19 @@ h1{
     border-right: 2px solid pink;
     width: 400px;
     text-align: center;
+    box-shadow: 4px 4px 5px #888888;
 }
 img{
     width: 400px;
     height: 300px;
     margin: 10px;
+    transition: all 1s;
+}
+/*
+https://www.w3schools.com/cssref/css3_browsersupport.asp
+http://shouldiprefix.com/#transitions
+https://thoughtbot.com/blog/transitions-and-transforms
+*/
+img:hover{
+    transform: scale(1.1);
 }
