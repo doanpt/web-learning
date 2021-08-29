@@ -1,0 +1,15 @@
+/* CSS Quiz: https://css-diner.netlify.app/ */
+body{
+    background-image: url(ngoctrinh.jpg);
+    background-size: contain;
+}
+h2{
+    color:red;
+    text-align: center;
+    border: 5px solid purple;
+    cursor: pointer;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
