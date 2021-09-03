@@ -7,10 +7,12 @@
     /* grid-template-columns: 1fr 1fr 2fr; */
     /* grid-template-columns: repeat(3, 1fr); */
     /* grid-template-columns: auto; */
-    grid-template-columns: auto 1fr 2fr;
-    grid-template-rows: 1fr 1fr;
+    /* grid-template-columns: auto 1fr 2fr; */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-rows: 1fr;
     /* fr same with weight in linear layout android */
     grid-gap:20px;
+    /* justify-items: end; */
 }
 .zone {
     cursor:pointer;
