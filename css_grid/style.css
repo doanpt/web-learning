@@ -1,3 +1,4 @@
+/* refer grid types sample: https://grid.malven.co/ */
 .container{
     display: grid;
     /* grid-template-columns: 300px 300px 300px; */
@@ -12,8 +13,30 @@
     grid-template-rows: 1fr;
     /* fr same with weight in linear layout android */
     grid-gap:20px;
+    /* Căn chỉnh content cho chính các con của nó. */
     /* justify-items: end; */
 }
+
+.green{
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+
+    /* chiếm 2 colum */
+    /* grid-column: 1/3; */
+
+    /* Luôn chiếm 1 dòng */
+    grid-column: 1/-1;
+
+    /* Chiếm 2 phần */
+    /* grid-column: span 2; */
+
+    grid-row: 2;
+    /* Căn chỉnh content cho chính nó */
+    /* justify-self: start; */
+    /* align-self: start; */
+}
+
+
 .zone {
     cursor:pointer;
     /* display:inline-block; */
