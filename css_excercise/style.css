@@ -7,6 +7,15 @@ body{
     margin: 0;
 }
 
+/* https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ */
+/* Only apply css attribute when media query <600 */
+@media only screen and (max-width:600px) {
+    .main-nav{
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+
 li{
     padding: 20px;
 }
