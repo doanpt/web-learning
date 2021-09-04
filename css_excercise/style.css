@@ -33,7 +33,7 @@ a{
     justify-content: center;
     align-items: center;
     /* height of container will be 50% of total height */
-    height: 50vh;
+    height: 70vh;
 }
 
 /* GRID */
@@ -54,6 +54,10 @@ a{
 
 .footer{
     text-align: center;
+}
+
+.cover{
+    width: 40rem;
 }
 
 
