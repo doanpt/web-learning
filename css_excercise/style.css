@@ -28,6 +28,14 @@ a{
     margin-left: auto;
 }
 
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height of container will be 50% of total height */
+    height: 50vh;
+}
+
 
 .zone {
     /* padding:30px 50px;
